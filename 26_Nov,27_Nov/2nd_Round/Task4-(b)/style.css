@@ -1,0 +1,68 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+html{
+    font-size: clamp(12px,1vw,18px);
+}
+main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(207, 243, 246);
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+.card{
+    width: 350px;
+    height: 500px;
+    background-color: #fff;
+    text-align: center;
+    padding: 2em 1.5em;
+    border-radius: 0.5em;
+}
+.card img{
+    width: 200px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+.card h1{
+    margin-top: 0.6em;
+}
+.card h3{
+    margin-top: 0.5em;
+    font-size: 1.2em;
+    opacity: 0.7;
+}
+.card .Friends{
+    color: green;
+}
+.card h4{
+    color: red;
+    font-size: 2.2em;
+}
+.card button{
+    width: 100%;
+    padding: 1em 1.5em;
+    margin-top: 1em;
+    font-size: 1em;
+    border: none;
+    background-color: rgb(15, 149, 15);
+    color: white;
+    border-radius: 0.3em;
+    font-weight: 500;
+    cursor: pointer;
+}
+.card .remove{
+    background-color: red;
+}

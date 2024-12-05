@@ -1,0 +1,14 @@
+{
+  "name": "insta_features",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./style.css -o ./output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  }
+}
